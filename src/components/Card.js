@@ -1,7 +1,8 @@
 import React from 'react'
 import Book2 from '../assets/images/book.jpg'
 
-const Card = () => {
+const Card = ({book}) => {
+  console.log(book,'aa')
   return (
     <>
       <div className="card">
