@@ -1,12 +1,9 @@
 import React from 'react'
 import Book from '../assets/images/bg2.png'
-import {AiOutlineSearch} from 'react-icons/ai'
-
-
-
+import { AiOutlineSearch } from 'react-icons/ai'
+import Card from './Card'
 
 const Main = () => {
-
   return (
     <>
       <div className="header">
@@ -21,11 +18,14 @@ const Main = () => {
           <div className="search">
             <input type="text" placeholder="Find Your Book Name" />
             <button>
-              <AiOutlineSearch/>
+              <AiOutlineSearch />
             </button>
           </div>
-          <img src={Book} alt='Book'/>
+          <img src={Book} alt="Book" />
         </div>
+      </div>
+      <div className="container">
+        <Card />
       </div>
     </>
   )
