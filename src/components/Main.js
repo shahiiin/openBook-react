@@ -12,7 +12,7 @@ const Main = () => {
       axios.get(
         'https://www.googleapis.com/books/v1/volumes?q=' +
           search +
-          '&key=AIzaSyCwdQC7bNHa6538p1TG8nV6SpfMFhPNeAo',
+          '&key=AIzaSyCwdQC7bNHa6538p1TG8nV6SpfMFhPNeAo'+'&maxResults=40',
       )
    
       .then(res=>setData(res.data.items))
