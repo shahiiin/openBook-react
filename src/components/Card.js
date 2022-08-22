@@ -6,7 +6,7 @@ const Card = () => {
     <>
       <div className="card">
         <img src={Book2} alt="Book2" />
-        <div className="button">
+        <div className="bottom">
           <h3 className="title">React Js</h3>
           <p className='amount'>&#8377;3290</p>
         </div>
